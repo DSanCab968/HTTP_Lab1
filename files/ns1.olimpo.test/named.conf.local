@@ -3,9 +3,11 @@
 zone "olimpo.test" {
      type master;
      file "/var/lib/bind/olimpo.test.dns";
+     allow-transfer { none; };
 };
 
 zone "57.168.192.in-addr.arpa" {
      type master;
      file "/var/lib/bind/192.168.57.dns";
+     allow-transfer { none; };
 };
