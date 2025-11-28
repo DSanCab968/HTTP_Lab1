@@ -13,6 +13,10 @@ echo "[+] Copiando archivos de configuración de Apache..."
 # Copiar apache2.conf
 cp -v /vagrant/files/mercurio.olimpo.test/apache2.conf /etc/apache2/apache2.conf
 
+#Copiar archivo hurl para probar
+
+cp -v /vagrant/files/mercurio.olimpo.test/weblab-1-en.hurl /home/weblab-1-en.hurl
+
 # Copiar virtual hosts
 cp -v /vagrant/files/mercurio.olimpo.test/apolo.olimpo.test.conf /etc/apache2/sites-available/
 cp -v /vagrant/files/mercurio.olimpo.test/atenea.olimpo.test.conf /etc/apache2/sites-available/
